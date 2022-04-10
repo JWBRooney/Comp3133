@@ -1,0 +1,11 @@
+import { User } from './user';
+
+export const USERS: User[] = [
+    {username: 'admin',
+    password: 'admin',
+    type: true}, 
+    {username: 'customer', 
+    password: 'customer',
+    type: false}
+
+]

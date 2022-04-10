@@ -1,0 +1,14 @@
+<h2>Listings</h2>
+<ul class = "listings">
+    <li *ngFor = "let listing of listings">
+        <span class="badge">{{listing.listing_id}} - {{listing.listing_title}}</span>
+        <ul><p>{{listing.description}}</p></ul>
+        <ul>{{listing.street}} 
+        {{listing.city}}
+        {{listing.postal_code}}</ul>
+        <ul>$ {{listing.price}}</ul>
+        <ul>{{listing.email}}
+        {{listing.username}}</ul>
+        
+    </li>
+</ul>

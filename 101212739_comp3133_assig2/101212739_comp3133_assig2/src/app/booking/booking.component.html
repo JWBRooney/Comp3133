@@ -1,0 +1,10 @@
+<h2>Bookings</h2>
+<ul class = "bookings">
+    <li *ngFor = "let booking of bookings">
+        <span class="badge">{{booking.listing_id}}  -  {{booking.listing_id}}</span>
+        <ul>Booked on: {{booking.booking_date}}</ul>
+        <ul>Start: {{booking.booking_start}}</ul>
+        <ul>End on: {{booking.booking_end}}</ul>
+        <ul>{{booking.username}}</ul>
+    </li>
+</ul>
